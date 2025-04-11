@@ -23,6 +23,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow Yumigo to access your photos",
+          "cameraPermission": "Allow Yumigo to use your camera"
+        }
+      ],
+      "expo-font"
+    ]
   }
 }
